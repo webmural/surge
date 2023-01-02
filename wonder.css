@@ -4,17 +4,24 @@
 }
 
 :root {
-  background: #212;
-  color: silver;
+  background: indigo;
+  color: pink;
 }
 
 :any-link {
-  color: violet;
+  color: #ee1;
 }
 
-@media (prefers-contrast: more) {
-  :root {
-    background: #201;
-    color: gainsboro;
-  }
+em {
+  color: aquamarine;
+}
+
+data {
+  text-shadow:
+   -3vw -3vh 0 darkmagenta,
+   -2vw -2vh 0 darkorchid,
+    -1vw -1vh 0 darkviolet,
+    1vw 1vh 0 chocolate,
+    2vw 2vh 0 chocolate,
+    3vw 3vh 0 chocolate;
 }
