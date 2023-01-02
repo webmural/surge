@@ -46,3 +46,8 @@ figcaption {
   padding: 1em;
   font-size: 1em;
 }
+
+div {
+  padding: 1em;
+  writing-mode: vertical-rl;
+}
