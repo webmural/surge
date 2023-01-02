@@ -31,7 +31,7 @@ samp {
   display: flex;
   flex-flow: column;
   font-weight: bold;
-  font-size: 1.618em;
+  font-size: max(1em, 10vmax);
   justify-content: center;
   min-height: 100vh;
 }
