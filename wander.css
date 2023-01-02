@@ -4,17 +4,24 @@
 }
 
 :root {
-  background: silver;
-  color: #212;
+  background: #ee1;
+  color: indigo;
 }
 
 :any-link {
   color: indigo;
 }
 
-@media (prefers-contrast: more) {
-  :root {
-    background: gainsboro;
-    color: #201;
-  }
+em {
+  color: purple;
+}
+
+data {
+  text-shadow:
+   -3vw -3vh 0 magenta,
+   -2vw -2vh 0 orchid,
+    -1vw -1vh 0 violet,
+    1vw 1vh 0 coral,
+    2vw 2vh 0 coral,
+    3vw 3vh 0 coral;
 }
